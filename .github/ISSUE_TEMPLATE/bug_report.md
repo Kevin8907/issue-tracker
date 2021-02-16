@@ -1,22 +1,17 @@
 ---
-name: Bug report
-about: Report a problem with the Kite product
-title: ''
+name: perfomance issue
+about: Kite is making my Vim editor typing slow
+title: 'Perfomance'
 labels: ''
 assignees: ''
 
 ---
 
 **Required Information**
-To help us triage your issue effectively, please make sure you've completed these steps before opening this issue. Issues with not enough information may be deprioritized or ignored.
-
-- [ ] [Read our guide](https://help.kite.com/article/96-contact-us-with-logs) on how to report an issue.
-- [ ] Include your Kite application logs, _taken while you are experiencing your issue_.
-- [ ] If reporting a performance problem, include your resource usage logs, _taken while you are experiencing your issue_.
-- [ ] If reporting an issue with Kite's editor plugin, include which editor you are using and the version, and any accompanying logs from your editor's console.
+Applicatuions Logs: https://s3.console.aws.amazon.com/s3/object/kite-client-logs/prod/680966/kite_local/client.log.2021-02-15_06-34-39-PM.bak.gz
+Resource Usage Logs: https://s3.console.aws.amazon.com/s3/object/kite-client-capture/prod/680966/kite_local/1613435685522586100/capture.gz
 
 **Describe the bug**
-A clear description of what the bug is. Include steps to reproduce the bug if necessary.
+When I write with the Kite autocomplete, i look that typing for example: "#include <iostream>" I'm late more than Kite is disable.
+what I normally do is open a .cpp document and then write the libraries but I notice that the letters are frozen for a few milliseconds and then Kite appears with autocompletion
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
